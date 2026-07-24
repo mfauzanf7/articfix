@@ -8,7 +8,7 @@ export default function Hero() {
         <div>
 
           <p className="uppercase tracking-[5px] text-blue-400 font-semibold">
-            Engineering • Facility Management
+            Trusted Engineering Partner
           </p>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6 leading-tight">
@@ -26,11 +26,21 @@ export default function Hero() {
           <div className="flex gap-4 mt-10">
 
             <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-xl font-semibold transition">
-              Get Started
+              <a
+  href="#contact"
+  className="bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl font-semibold"
+>
+  Request Consultation
+</a>
             </button>
 
             <button className="border border-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition">
-              Our Services
+              <a
+  href="#services"
+  className="border border-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition"
+>
+  Explore Services
+</a>
             </button>
 
           </div>

@@ -27,17 +27,17 @@ export default function Navbar() {
 
         <nav className="hidden md:flex gap-8 font-medium">
 
-          <a href="#">Home</a>
+  <a href="#">Home</a>
 
-          <a href="#">About</a>
+  <a href="#about">About</a>
 
-          <a href="#">Services</a>
+  <a href="#services">Services</a>
 
-          <a href="#">Projects</a>
+  <a href="#projects">Projects</a>
 
-          <a href="#">Contact</a>
+  <a href="#contact">Contact</a>
 
-        </nav>
+</nav>
 
       </div>
     </header>
