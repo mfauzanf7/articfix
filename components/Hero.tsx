@@ -1,7 +1,8 @@
 import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-r from-slate-900 via-blue-900 to-slate-800 text-white flex items-center">
+    <section className="min-h-[90vh] bg-gradient-to-r from-slate-900 via-blue-900 to-slate-800 text-white flex items-center">
       <div className="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-16 items-center">
 
         {/* LEFT */}
@@ -25,42 +26,37 @@ export default function Hero() {
 
           <div className="flex gap-4 mt-10">
 
-            <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-xl font-semibold transition">
-              <a
-  href="#contact"
-  className="bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl font-semibold"
->
-  Request Consultation
-</a>
-            </button>
+            <a
+              href="#contact"
+              className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-xl font-semibold transition"
+            >
+              Request Consultation
+            </a>
 
-            <button className="border border-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition">
-              <a
-  href="#services"
-  className="border border-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition"
->
-  Explore Services
-</a>
-            </button>
+            <a
+              href="#services"
+              className="border border-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition"
+            >
+              Explore Services
+            </a>
 
           </div>
 
         </div>
 
         {/* RIGHT */}
-
         <div className="flex justify-center">
 
-  <Image
-    src="/images/hero-building.jpg"
-    alt="Modern Building"
-    width={520}
-    height={520}
-    className="rounded-3xl shadow-2xl object-cover"
-    priority
-  />
+          <Image
+            src="/images/hero-building.jpg"
+            alt="Modern Building"
+            width={520}
+            height={520}
+            className="rounded-3xl shadow-2xl object-cover hover:scale-105 transition duration-500"
+            priority
+          />
 
-</div>
+        </div>
 
       </div>
     </section>
